@@ -1,0 +1,82 @@
+
+.MainPage{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100%;
+}
+.Main-container{
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.Main-content{
+  min-width: 100%;
+  height: 500px;
+  background-color: #ffd700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Main-svg{
+  width: 100%;
+  height: auto;
+}
+
+.Main-title{
+font-family: 'Poppins', sans-serif;
+font-weight: 600; 
+font-size: 5rem;
+margin: 0; 
+}
+.Main-text{
+font-family: 'Poppins', sans-serif;
+font-weight: 200; 
+font-size: 2rem; 
+text-align: center;
+}
+.Main-logo{
+  width: 300px
+}
+.Foter-container{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300; 
+  font-size: 1.5rem;
+}
+
+
+
+@media (max-width: 600px) {
+.Main-title{
+font-family: 'Poppins', sans-serif;
+font-weight: 600; 
+font-size: 2.2rem;
+margin: 0; 
+}
+.Main-text{
+font-family: 'Poppins', sans-serif;
+font-weight: 200; 
+font-size: 1rem; 
+text-align: center;
+margin-right: 20px;
+margin-left: 20px;
+}
+.Main-logo{
+  width: 200px
+}
+.Foter-container{
+ 
+  font-size: 1rem;
+}
+}

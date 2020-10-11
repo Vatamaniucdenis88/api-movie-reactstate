@@ -1,0 +1,51 @@
+.Card-container{
+	width: 270px;
+	height: 510px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 10px;
+	z-index: 1;
+	position: relative;
+	
+	
+}
+.Card-small{
+	width: 270px;
+	height: 390px;
+	border-radius: 10px;
+	border: 0.5px solid black;
+	overflow: hidden;
+
+}
+.Card-cover{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: 1;
+}
+.Card-title{
+	font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 1.2rem;
+   margin: 0;
+}
+.Card-rating{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
+   font-size: 1.3rem;
+   margin: 0;
+}
+.Card-details{
+	position: absolute;
+	top:30px;
+	left: 10px;
+	width: 100px;
+	height: 32px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	background-color: #00cba9;
+
+}
